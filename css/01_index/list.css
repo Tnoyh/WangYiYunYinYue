@@ -1,0 +1,200 @@
+
+#list{
+    height: 600px;
+    width: 100%;
+    /*flex: 1;*/
+    background-color: #fff5ea;
+
+    /*display: flex;*/
+    flex-flow: column;
+    /*justify-content: space-between;*/
+
+    overflow: scroll;
+}
+/******************第一个歌单　ｓｔａｒｔ*********************/
+#list_01{
+    height: 170px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    /*justify-content: space-between;*/
+}
+#img_01{
+    height: 150px;
+    width: 150px;
+    margin-top:10px;
+    margin-left: 10px;
+    background-color: #3c4246;
+    background-image: url("../../img/list/喜欢.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+#msg_01{
+    flex: 1;
+    font-size: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+
+#msg_01_up{
+    height: 75px;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#msg_01_down{
+    height: 75px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+
+
+/********************第一个歌单　ｅｎｄ*****************************/
+
+
+/******************第二个歌单　ｓｔａｒｔ*********************/
+
+#list_02{
+    height: 170px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    /*justify-content: space-between;*/
+}
+#img_02{
+    height: 150px;
+    width: 150px;
+    margin-top:10px;
+    margin-left: 10px;
+    background-color: #3c4246;
+    background-image: url("../../img/list/1d00a1a23a91a70a8c37d79d0656ffb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+#msg_02{
+    flex: 1;
+    font-size: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+
+#msg_02_up{
+    height: 75px;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#msg_02_down{
+    height: 75px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+/********************第二个歌单　ｅｎｄ*****************************/
+
+
+/******************第三个歌单　ｓｔａｒｔ*********************/
+
+#list_03{
+    height: 170px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    /*justify-content: space-between;*/
+}
+#img_03{
+    height: 150px;
+    width: 150px;
+    margin-top:10px;
+    margin-left: 10px;
+    background-color: #3c4246;
+    background-image: url("../../img/list/l1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+#msg_03{
+    flex: 1;
+    font-size: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+
+#msg_03_up{
+    height: 75px;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#msg_03_down{
+    height: 75px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+/********************第三个歌单　ｅｎｄ*****************************/
+
+
+/******************第四个歌单　ｓｔａｒｔ*********************/
+
+
+#list_04{
+    height: 170px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    /*justify-content: space-between;*/
+}
+#img_04{
+    height: 150px;
+    width: 150px;
+    margin-top:10px;
+    margin-left: 10px;
+    background-color: #3c4246;
+    background-image: url("../../img/list/197657211043266624.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+#msg_04{
+    flex: 1;
+    font-size: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+
+#msg_04_up{
+    height: 75px;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#msg_04_down{
+    height: 75px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+/********************第四个歌单　ｅｎｄ*****************************/

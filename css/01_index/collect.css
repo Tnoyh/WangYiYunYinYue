@@ -1,0 +1,37 @@
+#collect{
+    height: 45px;
+    width: 100%;
+    /*flex: 1;*/
+
+    background-color: #ede5d7;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#collect_img{
+    flex: 1;
+    background-image: url("../../img/collect/下拉.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+
+}
+
+#creat_list{
+    height: 45px;
+    width: 90%;
+    font-size: 17px;
+    color: #50595e;
+    margin-top: 14px;
+
+
+}
+
+#set{
+    flex: 1;
+    background-image: url("../../img/collect/设置.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}

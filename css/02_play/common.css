@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.border{
+    border: #0b0201 1px solid;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.xy-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font{
+    font-family: 微软雅黑;
+}
+
+.color{
+    background-color: #fff5ea;
+}
+
+.font_color{
+    color: #979188;
+}

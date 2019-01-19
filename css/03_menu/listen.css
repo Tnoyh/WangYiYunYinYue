@@ -1,0 +1,22 @@
+#listen{
+    /*height: 100px;*/
+    /*width: 100%;*/
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+
+#listen_img{
+    flex: 1;
+    background-image: url("../../img/03_menu/语音.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+#listen_text{
+    width: 82%;
+    font-size: 40px;
+    color: #0b0201;
+    line-height: 120px;
+}

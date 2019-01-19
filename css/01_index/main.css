@@ -1,0 +1,366 @@
+#main{
+    /*height: 360px;*/
+    /*width: 100%;*/
+    flex: 1;
+
+    /*display: flex;*/
+    flex-flow: column;
+    /*justify-content: space-between;*/
+}
+/*********************************本地音乐　ｓｔａｒｔ**********************************************/
+#local{
+    height: 120px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#local_img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/main/音乐.svg");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+#local_msg{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+#msg_local{
+    height: 60px;
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+#msg_local_music{
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#count{
+    height: 50px;
+    margin-left: 10px;
+    color: #9c968d;
+    display: flex;
+    align-items: center;
+
+}
+
+#msg_new_add{
+    height: 60px;
+    width: 100%;
+    margin-left: 30px;
+    color: #9c968d;
+    display: flex;
+    align-items: center;/*纵向居中　先写display:flex;*/
+
+}
+/***************************************本地音乐　ｅｎｄ*********************************************/
+
+
+/***************************************最近播放　ｓｔａｒｔ*********************************************/
+#recent{
+    height: 120px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#recent_img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/main/播放.svg");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+#recent_msg{
+    flex: 1;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#msg_recent{
+    height: 60px;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+#msg_recent_music{
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#recent_count{
+    height: 50px;
+    margin-left: 10px;
+    color: #9c968d;
+    display: flex;
+    align-items: center;
+
+}
+
+/***************************************最近播放　ｅｎｄ*********************************************/
+
+
+/***************************************下载管理　ｓｔａｒｔ*********************************************/
+#download{
+    height: 120px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#download_img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/main/下载 (1).svg");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+#download_msg{
+    flex: 1;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#msg_download{
+    height: 60px;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+#msg_download_music{
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#download_count{
+    height: 50px;
+    margin-left: 10px;
+    color: #9c968d;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+/***************************************下载管理　ｅｎｄ*********************************************/
+
+
+/***************************************我的电台　start*********************************************/
+
+
+#radio{
+    height: 120px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#radio_img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/main/电台.svg");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+#radio_msg{
+    flex: 1;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#msg_radio{
+    height: 60px;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+#msg_radio_music{
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#radio_count{
+    height: 50px;
+    margin-left: 10px;
+    color: #9c968d;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+/***************************************我的电台　ｅｎｄ*********************************************/
+
+
+/***************************************我的收藏　ｓｔａｒｔ*********************************************/
+
+#me_collect{
+    height: 120px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#me_collect_img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/main/我的收藏.svg");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+#me_collect_msg{
+    flex: 1;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#msg_me_collect{
+    height: 60px;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+#msg_me_collect_music{
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#me_collect_count{
+    height: 50px;
+    margin-left: 10px;
+    color: #9c968d;
+    display: flex;
+    align-items: center;
+
+}
+
+
+/***************************************我的收藏　ｅｎｄ*********************************************/
+
+
+/***************************************Ｓａｔｉ空间　ｓｔａｒｔ*********************************************/
+
+
+#Sati_space{
+    height: 120px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#Sati_space_img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/main/月亮.svg");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+#Sati_space_msg{
+    flex: 1;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#msg_Sati_space{
+    height: 60px;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+#msg_Sati_space_music{
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+/*#me_collect_count{*/
+    /*height: 50px;*/
+    /*margin-left: 10px;*/
+    /*color: #9c968d;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+
+/*}*/
+/***************************************Ｓａｔｉ空间　ｅｎｄ*********************************************/

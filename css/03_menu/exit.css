@@ -1,0 +1,85 @@
+#exit{
+    /*height: 100px;*/
+    /*width: 100%;*/
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+
+#night{
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+#night_left{
+    flex: 1;
+    background-image: url("../../img/03_menu/播放页_更多_夜间模式.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#night_right{
+    width: 60%;
+    font-size: 38px;
+    color: #0b0201;
+    line-height: 120px;
+}
+
+
+#set{
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+#set_left{
+    flex: 1;
+    margin-left: 20px;
+    background-image: url("../../img/03_menu/设置.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#set_right{
+    width: 60%;
+    font-size: 38px;
+    margin-left: 20px;
+    color: #0b0201;
+    line-height: 120px;
+}
+
+
+#exit_logo{
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+
+#exit_logo_left{
+    flex: 1;
+    margin-left: 20px;
+    background-image: url("../../img/03_menu/设置.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#exit_logo_right{
+    width: 60%;
+    margin-left: 20px;
+    font-size: 38px;
+    color: #0b0201;
+    line-height: 120px;
+}
+/*#exit_img{*/
+    /*flex: 1;*/
+    /*background-image: url("../../img/03_menu/退出.svg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: 70%;*/
+/*}*/
+
+/*#exit_text{*/
+    /*width: 82%;*/
+    /*font-size: 40px;*/
+    /*color: #0b0201;*/
+    /*line-height: 120px;*/
+/*}*/

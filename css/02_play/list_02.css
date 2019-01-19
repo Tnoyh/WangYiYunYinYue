@@ -1,0 +1,85 @@
+#list_02{
+    height: 350px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+#list_11{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#list11_img{
+    height: 280px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("../../img/02_play/list/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#list11_msg{
+    height: 60px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+#list_22{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#list22_img{
+    height: 280px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("../../img/02_play/list/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#list22_msg{
+    height: 60px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+#list_33{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#list33_img{
+    height: 280px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("../../img/02_play/list/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#list33_msg{
+    height: 60px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="../css/02_play/common.css" rel="stylesheet">
+    <link href="../css/02_play/container.css" rel="stylesheet">
+    <link href="../css/02_play/title.css" rel="stylesheet">
+    <link href="../css/02_play/navigation.css" rel="stylesheet">
+    <link href="../css/02_play/carousel.css" rel="stylesheet">
+    <link href="../css/02_play/choose.css" rel="stylesheet">
+    <link href="../css/02_play/recommend.css" rel="stylesheet">
+    <link href="../css/02_play/list_01.css" rel="stylesheet">
+    <link href="../css/02_play/list_02.css" rel="stylesheet">
+    <link href="../css/02_play/play.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/02_play/player.css">
+
+    <style>
+
+        #time-line {
+            position: relative;
+            background-color: gray;
+            flex: 1;
+            height: 5px;
+            border-radius: 4px;
+        }
+
+        #current_time {
+            width: 60px;
+            color: white;
+            margin-left: 6px;
+        }
+        #duration {
+            width: 60px;
+            color: white;
+            margin-left:18px;
+        }
+
+        #point {
+            position: absolute;
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+            box-shadow: 0 0 2px grey;
+            background-color: white;
+            top: -15px;
+            left: -8px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="title" class="">
+            <div id="title_left" class="">
+
+                <div id="title_img">
+
+                    <a href="menu.html"><img src="../img/title/列表%20(1).svg"style="
+                    <!--height: 40px;width: 40px;margin-left: 10px;margin-top: 6px;"></a>-->
+
+                </div>
+
+            </div>
+
+            <div id="title_center" class="">
+
+                <div id="logo1">
+                    <a href="index.html"><img src="../img/title/音乐.svg" style="height: 50px;
+                        width: 40px;margin-left: 10px;margin-top: 6px;"></a>>
+
+                </div>
+                <div id="logo2">
+                    <a href="play.html"><img src="../img/title/网易云音乐.svg" style="height: 40px;
+                        width: 40px;margin-left: 10px;margin-top: 8px;"></a>>
+                </div>
+                <div id="logo3"></div>
+
+            </div>
+
+
+
+            <div id="title_right" class="">
+
+                <div id="search"></div>
+
+            </div>
+
+
+        </div>
+
+        <div id="navigation" class="">
+
+            <div id="recommend" class="font ">
+                <div id="left">推荐</div>
+            </div>
+            <div id="friends" class="font ">
+                <div id="center">朋友</div>
+            </div>
+            <div id="radio" class="font ">
+                <div id="right">电台</div>
+            </div>
+
+        </div>
+
+        <div id="carousel" style="background-image: url(../img/02_play/carousel/1.jpg)"></div>
+
+        <div id="choose" class="">
+
+            <div id="choose_up" class="">
+                <div id="FM" class=""></div>
+                <div id="every" class=""></div>
+                <div id="list" class=""></div>
+                <div id="rank" class=""></div>
+            </div>
+            <div id="choose_down" class="">
+                <div id="FM_name" class="font">私人ＦＭ</div>
+                <div id="every_name" class="font">每日推荐</div>
+                <div id="list_name" class="font">歌单</div>
+                <div id="rank_name" class="font">排行榜</div>
+            </div>
+
+
+        </div>
+
+        <div id="recommend_list" class="">
+
+            <div id="this_list" class="">推荐歌单</div>
+            <div id="this_logo" class=""></div>
+
+        </div>
+
+        <div id="list_01" class="">
+                <div id="list_1" class="">
+
+                    <div id="list1_img" class=""></div>
+                    <div id="list1_msg" class="font font_color">生活没有那么简单，也没有那么糟糕</div>
+
+                </div>
+                <div id="list_2" class="">
+
+                    <div id="list2_img" class=""></div>
+                    <div id="list2_msg" class="font font_color">不想起床，在房间洒满慵懒阳光</div>
+
+                </div>
+                <div id="list_3" class="">
+
+                    <div id="list3_img" class=""></div>
+                    <div id="list3_msg" class="font font_color">那些喜欢到循环播放的歌</div>
+
+                </div>
+        </div>
+
+        <div id="list_02" class="">
+
+            <div id="list_11" class="">
+
+                <div id="list11_img" class=""></div>
+                <div id="list11_msg" class="font_color font">若是心怀旧梦，就别再无疾而终</div>
+
+            </div>
+            <div id="list_22" class="">
+
+                <div id="list22_img" class=""></div>
+                <div id="list22_msg" class="font_color font">怎样惊艳一首歌才够资格10ｗ+</div>
+
+            </div>
+            <div id="list_33" class="">
+
+                <div id="list33_img" class=""></div>
+                <div id="list33_msg" class="font_color font">从前有个人爱你很久</div>
+
+            </div>
+
+        </div>
+
+        <div id="play" class="">
+            <div id="play_music" class="" >
+
+                <div id="play_music_img" class=""></div>
+                <div id="play_music_msg" class="">
+
+                    <div id="msg_play_music" class="">
+                        <div id="music_name" class="font ">玫瑰</div>
+                        <div id="intro" class="font ">横划可以切换上下首哦</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="play_botton" class=""></div>
+            <div id="play_list" class=""></div>
+        </div>
+
+        <div id="player" class="">
+
+            <div id="player_header" class="">
+
+                <div id="header_left" class="">
+                    <!--返回链接到首页-->
+                    <!--<a href="index.html"><img src="../img/control/返回.svg"-->
+                    <!--style="width: 15%"></a>-->
+
+                </div>
+                <div id="header_center" class="">
+                    <div id="header_up" class="font">玫瑰</div>
+                    <div id="header_down" class="font">贰佰</div>
+                </div>
+                <div id="header_right" class=""></div>
+
+            </div>
+
+            <div id="player_body" class="">
+
+                <div id="Album_background" class="">
+
+                    <div id="album" class=""></div>
+
+                </div>
+
+                <div id="more" class="">
+
+                    <div id="more_love" class=""></div>
+                    <div id="more_down" class=""></div>
+                    <div id="more_effects" class=""></div>
+                    <div id="more_comment" class=""></div>
+                    <div id="more_more" class=""></div>
+
+                </div>
+
+            </div>
+
+            <div id="player_panel" class="">
+
+                <div id="process" class="">
+
+                    <div id="current_time" class="">00:00</div>
+                    <div id="time-line" class="">
+                        <div id="point" class=""></div>
+                    </div>
+                    <div id="duration" class="">00:00</div>
+
+                </div>
+
+
+                <div id="control" class="">
+                    <div id="loop" class=""></div>
+                    <div id="last" class=""></div>
+                    <div id="play_pause" class=""></div>
+                    <div id="next" class=""></div>
+                    <div id="list_song" class=""></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+<script src="../js/frame/jquery.js"></script>
+<script src="http://y.gtimg.cn/music/h5/player/player.js?max_age=2592000"></script>
+
+<script>
+
+    let songs = ["000qeAhg2Lj8sH" , "0033jdQI0aW9OX" , "003aAYrm3GE0Ac" , "001Qu4I30eVFYb"];
+
+    $(function(){
+
+        let task;
+
+        // 初始化播放组件
+        let player = new QMplayer({ target: "auto" });
+
+        // 监听事件
+        player.on("play", function () {
+
+            task = setInterval(function(){
+                let currentTime = Math.floor(player.currentTime/60)+":"+Math.ceil(player.currentTime%60);
+                let duration = Math.floor(player.duration/60)+":"+Math.floor(player.duration%60);
+                $("#current_time").html(currentTime);
+                $("#duration").html(duration);
+
+                let time_line_width = $("#time-line").width();
+                $("#point").css('left' ,  player.currentTime/player.duration * time_line_width - 4+"px" );
+
+            } , 500);
+
+            console.log(player.data);
+
+            $("#song").html(player.data.song.title);
+            $("#singer").html(player.data.songs[0].singer[0].name);
+
+            $("#album").css('background-image' , "url(http://imgcache.qq.com/music/photo/album_300/"+(player.data.song.album.id%100)+"/300_albumpic_"+player.data.song.album.id+"_0.jpg");
+
+        });
+
+        player.on("pause" , function() {
+            clearInterval(task);
+        });
+
+
+        $("#play_pause").click(function(){
+            player.play("00415NCr2qvHiO");
+            console.log("+++")
+
+        });
+
+        // $("#pause").click(function(){
+        //     player.pause();
+        // })
+    });
+
+    $(function(){
+
+        $("#collect_img").click(function(){
+
+            $("#page").toggle(400);
+
+        })
+
+    });
+
+    $(function(){
+        $("#play").click(() => {
+            $("#player").css('top','0%');
+        });
+
+
+        $("#player_header").click(() => {
+            $("#player").css('top','100%');
+        });
+
+    })
+
+
+
+
+    let index = 2;
+
+    let task;
+
+    function loadImg() {
+        index++;
+        if (index === 4) index = 1;
+        $("#carousel").css("background-image", "url(../img/02_play/carousel/" + index + ".jpg)");
+
+    }
+
+    $(function(){ //当页面加载时
+
+        task = setInterval("loadImg()" , 1000); //启动定时器
+
+        $("#carousel").mouseover(function(){ //鼠标经过
+            window.clearInterval(task);
+        });
+
+        $("#carousel").mouseout(function(){ //鼠标移出
+            task = setInterval("loadImg()", 1000);
+        })
+
+    })
+
+</script>

@@ -1,0 +1,22 @@
+#cloth{
+    /*height: 100px;*/
+    /*width: 100%;*/
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+
+#cloth_img{
+    flex: 1;
+    background-image: url("../../img/03_menu/皮肤.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+#cloth_text{
+    width: 82%;
+    font-size: 40px;
+    color: #0b0201;
+    line-height: 120px;
+}

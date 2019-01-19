@@ -1,0 +1,11 @@
+
+#carousel{
+    flex: 1;
+    /*height: 200px;*/
+    /*width: 600px;*/
+    border: 1px solid crimson;
+    /*background-image: url("../../img/02_play/carousel/2.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

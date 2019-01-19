@@ -1,0 +1,45 @@
+#header{
+    /*flex: 1;*/
+    height:600px;
+    width: 100%;
+    background-image: url("../../img/03_menu/背景.jpg");
+    /*background-color: #9c968d;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.76;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+
+#header_up{
+    flex: 1;
+}
+
+#header_center{
+    height: 300px;
+    width: 100%;
+
+}
+#header_img{
+    height:180px;
+    width: 180px;
+    border-radius: 50%;
+    background-image: url("../../img/user/header.jpg ");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-left: 30px;
+
+}
+
+#header_down{
+    flex: 1;
+    color: white;
+    font-size: 50px;
+    margin-left: 65px;
+
+}

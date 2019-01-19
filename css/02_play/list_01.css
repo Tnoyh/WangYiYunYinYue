@@ -1,0 +1,123 @@
+#list_01{
+    height: 350px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+#list_1{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#list1_img{
+    height: 280px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("../../img/02_play/list/6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#list1_msg{
+    height: 60px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+
+#list_2{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#list2_img{
+    height: 280px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("../../img/02_play/list/5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#list2_msg{
+    height: 60px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+
+#list_3{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#list3_img{
+    height: 280px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("../../img/02_play/list/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#list3_msg{
+    height: 60px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+
+/*#list_1{*/
+    /*flex: 1;*/
+    /*!*height: 250px;*!*/
+    /*!*width: 200px;*!*/
+
+    /*!*display: flex;*!*/
+    /*!*flex-flow: row;*!*/
+    /*!*justify-content: space-between;*!*/
+/*}*/
+
+/*!*#list1_img{*!*/
+    /*!*!*height: 200px;*!*!*/
+/*!*}*!*/
+/*!*#list1_msg{*!*/
+    /*!*flex: 1;*!*/
+/*!*}*!*/
+
+/*#list_2{*/
+    /*flex: 1;*/
+    /*!*height: 250px;*!*/
+    /*!*width: 200px;*!*/
+
+/*}*/
+/*#list_3{*/
+    /*flex: 1;*/
+    /*!*height: 250px;*!*/
+    /*!*width: 200px;*!*/
+
+/*}*/
+
+
+

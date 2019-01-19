@@ -1,0 +1,204 @@
+#player{
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    position: absolute;
+    transition: all .5s linear;
+
+    /*background-image: url("../../img/list/1d00a1a23a91a70a8c37d79d0656ffb.jpg");*/
+    background-color: #46433f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300% 200%;
+    opacity: 50%;/*设置透明度*/
+    /*filter: blur(1px);!*设置背景虚化*!*/
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+#player_header{
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#header_left{
+    width: 15%;
+
+    background-image: url("../../img/control/返回.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+/*#header_left:hover #*/
+
+#header_center{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#header_up{
+    flex: 1;
+    font-size: 50px;
+    color: white;
+    vertical-align: bottom;
+}
+#header_down{
+    flex: 1;
+    font-size: 30px;
+    color: #b3ada2;
+}
+#header_right{
+    width: 15%;
+
+    background-image: url("../../img/control/分享.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+/********************************************************************/
+
+#player_body{
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#Album_background{
+    flex: 1;
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#album{
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../img/list/1d00a1a23a91a70a8c37d79d0656ffb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    box-shadow: #979188;
+}
+
+#more{
+    height: 100px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#more_love{
+    flex: 1;
+    background-image: url("../../img/control/喜欢.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+#more_down{
+    flex: 1;
+    background-image: url("../../img/control/下载 (1).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+#more_effects{
+    flex: 1;
+    background-image: url("../../img/control/音效.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+#more_comment{
+    flex: 1;
+    background-image: url("../../img/control/评论.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+#more_more{
+    flex: 1;
+    background-image: url("../../img/control/更多.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+
+
+/************************************************************/
+
+#player_panel{
+    height: 250px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+#process{
+    height: 150px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#control{
+    height: 200px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#loop{
+    flex: 1;
+    background-image: url("../../img/control/循环.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+#last{
+    flex: 1;
+    background-image: url("../../img/control/上一曲.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+#play_pause{
+    flex: 1;
+    background-image: url("../../img/control/播放.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+#next{
+    flex: 1;
+    background-image: url("../../img/control/下一曲.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+#list_song{
+     flex: 1;
+    background-image: url("../../img/control/列表.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}

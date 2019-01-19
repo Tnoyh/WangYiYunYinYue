@@ -1,0 +1,29 @@
+#recommend_list{
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    /*justify-content: space-between;*/
+}
+
+#this_list{
+    height: 58px;
+    font-size: 30px;
+    color: black;
+    margin-left: 15px;
+    align-items: center;
+    line-height: 58px;/* 文本对层居中*/
+    /*justify-content: center;*/
+    /*justify-items: center;*/
+}
+
+#this_logo{
+    height: 58px;
+    width: 58px;
+    margin-left: 10px;
+    background-image: url("../../img/02_play/recommend_list/下拉.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}

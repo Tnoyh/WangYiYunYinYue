@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="../css/01_index/common.css" rel="stylesheet">
+    <link href="../css/01_index/container.css" rel="stylesheet">
+    <link href="../css/01_index/title.css" rel="stylesheet">
+    <link href="../css/01_index/user.css" rel="stylesheet">
+    <link href="../css/01_index/main.css" rel="stylesheet">
+    <link href="../css/01_index/collect.css" rel="stylesheet">
+    <link href="../css/01_index/list.css" rel="stylesheet">
+    <link href="../css/01_index/play.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/01_index/player.css">
+
+    <style>
+
+        #time-line {
+            position: relative;
+            background-color: gray;
+            flex: 1;
+            height: 5px;
+            border-radius: 4px;
+        }
+
+        #current_time {
+            width: 60px;
+            color: white;
+            margin-left: 6px;
+        }
+        #duration {
+            width: 60px;
+            color: white;
+            margin-left:18px;
+        }
+
+        #point {
+            position: absolute;
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+            box-shadow: 0 0 2px grey;
+            background-color: white;
+            top: -15px;
+            left: -8px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="container">
+        <div id="title" class="">
+            <div id="title_left" class="">
+
+                <div id="title_img">
+                    <a href="menu.html"><img src="../img/title/列表%20(1).svg"style="
+                    <!--height: 40px;width: 40px;margin-left: 10px;margin-top: 6px;"></a>
+                </div>
+
+                <!--<div id="title_menu"class="border">-->
+
+                    <!--<div id="menu_img" class="border"></div>-->
+                    <!--<div id="menu_msg" class="border"></div>-->
+                    <!--<div id="menu_shop" class="border"></div>-->
+                    <!--<div id="background_01" class="border"></div>-->
+                    <!--<div id="menu_friend" class="border"></div>-->
+                    <!--<div id="menu_nearby" class="border"></div>-->
+                    <!--<div id="menu_bottom" class="border"></div>-->
+
+                <!--</div>-->
+
+            </div>
+
+            <div id="title_center" class="">
+
+                <div id="logo1">
+                    <a href="index.html"><img src="../img/title/音乐.svg" style="height: 50px;
+                        width: 40px;margin-left: 10px;margin-top: 6px;"></a>
+                </div>
+                <div id="logo2">
+                    <a href="play.html"><img src="../img/title/网易云音乐.svg" style="height: 40px;
+                        width: 40px;margin-left: 10px;margin-top: 8px;"></a>
+
+                </div>
+                <div id="logo3"></div>
+
+            </div>
+
+
+
+            <div id="title_right" class="">
+
+                <div id="search"></div>
+
+            </div>
+
+
+        </div>
+
+        <div id="user"class="color">
+
+            <div id="user_header" class=""></div>
+            <div id="user_name" class="font">later</div>
+            <div id="vip" class="font border">开通会员</div>
+
+        </div>
+
+        <div id="main"class="color ">
+
+            <div id="local" class="">
+
+                <div id="local_img" class=""></div>
+                <div id="local_msg" class="">
+
+                    <div id="msg_local" class="">
+                        <div id="msg_local_music"class="font ">本地音乐</div>
+                        <div id="count"class=" font">(55)</div>
+                    </div>
+                    <div id="msg_new_add" class=" font">新增27首</div>
+
+                </div>
+
+            </div>
+            <div id="recent" class="">
+
+                <div id="recent_img" class=""></div>
+                <div id="recent_msg" class="">
+
+                    <div id="msg_recent" class="">
+                        <div id="msg_recent_music"class="font ">最近播放</div>
+                        <div id="recent_count"class=" font">(200)</div>
+                    </div>
+                </div>
+            </div>
+            <div id="download" class="">
+
+                <div id="download_img" class=""></div>
+                <div id="download_msg" class="">
+
+                    <div id="msg_download" class="">
+                        <div id="msg_download_music"class="font ">下载管理</div>
+                        <div id="download_count"class=" font">(67)</div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="radio" class="">
+
+                <div id="radio_img" class=""></div>
+                <div id="radio_msg" class="">
+
+                    <div id="msg_radio" class="">
+                        <div id="msg_radio_music"class="font ">我的电台</div>
+                        <div id="radio_count"class=" font">(10)</div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="me_collect" class="">
+
+                <div id="me_collect_img" class=""></div>
+                <div id="me_collect_msg" class="">
+
+                    <div id="msg_me_collect" class="">
+                        <div id="msg_me_collect_music"class="font ">我的收藏</div>
+                        <div id="me_collect_count"class=" font">(31)</div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="Sati_space" class="">
+
+                <div id="Sati_space_img" class=""></div>
+                <div id="Sati_space_msg" class="">
+
+                    <div id="msg_Sati_space" class="">
+                        <div id="msg_Sati_space_music"class="font ">Sati空间</div>
+                        <!--<div id="Sati_space_count"class="border font">(200)</div>-->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="collect"class="">
+
+            <div id="collect_img" class=""></div>
+
+
+
+            <div id="creat_list" class=" font">创建的歌单(17)</div>
+
+
+            <div id="set" class="" ></div>
+
+        </div>
+
+        <div id="list"class="">
+            <div id="page">
+            <div id="list_01" class="">
+
+                <div id="img_01" class=""></div>
+                <div id=msg_01" class=" font ">
+                    <div id="msg_01_up"class=" font">我喜欢的音乐</div>
+                    <div id="msg_01_down"class="font font_color">422首，已下载57首</div>
+                </div>
+            </div>
+
+            <div id="list_02" class="">
+
+                <div id="img_02" class=""></div>
+                <div id=msg_02" class=" font ">
+                    <div id="msg_02_up"class=" font">贰佰</div>
+                    <div id="msg_02_down"class="font font_color">13首，已下载11首</div>
+                </div>
+            </div>
+            <div id="list_03" class="">
+
+                <div id="img_03" class=""></div>
+                <div id=msg_03" class=" font ">
+                    <div id="msg_03_up"class=" font">陈鸿宇</div>
+                    <div id="msg_03_down"class="font font_color">19首，已下载7首</div>
+                </div>
+
+            </div>
+            <div id="list_04" class="">
+
+                <div id="img_04" class=""></div>
+                <div id=msg_04" class=" font ">
+                    <div id="msg_04_up"class=" font">听什么歌都像唱自己</div>
+                    <div id="msg_04_down"class="font font_color">214首，已下载85首</div>
+                </div>
+
+            </div>
+            <!--<div id="list_05" class="border"></div>-->
+            </div>
+        </div>
+
+        <div id="play"class="">
+            <div id="play_music" class="">
+
+                <div id="play_music_img" class=""></div>
+                <div id="play_music_msg" class="">
+
+                    <div id="msg_play_music" class="">
+                        <div id="music_name" class="font ">玫瑰</div>
+                        <div id="intro" class="font ">横划可以切换上下首哦</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="play_botton" class=""></div>
+            <div id="play_list" class=""></div>
+
+
+
+
+
+        </div>
+
+        <div id="player" class="">
+
+            <div id="player_header" class="">
+
+                <div id="header_left" class="">
+                    <!--返回链接到首页-->
+                    <!--<a href="index.html"><img src="../img/control/返回.svg"-->
+                    <!--style="width: 15%"></a>-->
+
+                </div>
+                <div id="header_center" class="">
+                    <div id="header_up" class="font">玫瑰</div>
+                    <div id="header_down" class="font">贰佰</div>
+                </div>
+                <div id="header_right" class=""></div>
+
+            </div>
+
+            <div id="player_body" class="">
+
+                <div id="Album_background" class="">
+
+                    <div id="album" class=""></div>
+
+                </div>
+
+                <div id="more" class="">
+
+                    <div id="more_love" class=""></div>
+                    <div id="more_down" class=""></div>
+                    <div id="more_effects" class=""></div>
+                    <div id="more_comment" class=""></div>
+                    <div id="more_more" class=""></div>
+
+                </div>
+
+            </div>
+
+            <div id="player_panel" class="">
+
+                <div id="process" class="">
+
+                    <div id="current_time">00:00</div>
+                    <div id="time-line">
+                        <div id="point"></div>
+                    </div>
+                    <div id="duration">00:00</div>
+
+                </div>
+
+
+                <div id="control" class="">
+                    <div id="loop" class=""></div>
+                    <div id="last" class=""></div>
+                    <div id="play_pause" class=""></div>
+                    <div id="next" class=""></div>
+                    <div id="list_song" class=""></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<script src="../js/frame/jquery.js"></script>
+<script src="http://y.gtimg.cn/music/h5/player/player.js?max_age=2592000"></script>
+
+<script>
+
+
+    let songs = ["000qeAhg2Lj8sH" , "0033jdQI0aW9OX" , "003aAYrm3GE0Ac" , "001Qu4I30eVFYb"];
+
+    $(function(){
+
+        let task;
+
+        // 初始化播放组件
+        let player = new QMplayer({ target: "auto" });
+
+        // 监听事件
+        player.on("play", function () {
+
+            task = setInterval(function(){
+                let currentTime = Math.floor(player.currentTime/60)+":"+Math.ceil(player.currentTime%60);
+                let duration = Math.floor(player.duration/60)+":"+Math.floor(player.duration%60);
+                $("#current_time").html(currentTime);
+                $("#duration").html(duration);
+
+                let time_line_width = $("#time-line").width();
+                $("#point").css('left' ,  player.currentTime/player.duration * time_line_width - 4+"px" );
+
+            } , 500);
+
+            console.log(player.data);
+
+            $("#song").html(player.data.song.title);
+            $("#singer").html(player.data.songs[0].singer[0].name);
+
+            $("#album").css('background-image' , "url(http://imgcache.qq.com/music/photo/album_300/"+(player.data.song.album.id%100)+"/300_albumpic_"+player.data.song.album.id+"_0.jpg");
+
+        });
+
+        player.on("pause" , function() {
+            clearInterval(task);
+        });
+
+
+        $("#play_pause").click(function(){
+            player.play("00415NCr2qvHiO");
+            console.log("+++")
+
+        });
+
+        // $("#pause").click(function(){
+        //     player.pause();
+        // })
+    });
+
+    $(function(){
+
+        $("#collect_img").click(function(){
+
+            $("#page").toggle(400);
+
+        })
+
+    });
+
+    $(function(){
+        $("#play").click(() => {
+            $("#player").css('top','0%');
+        });
+
+
+        $("#player_header").click(() => {
+            $("#player").css('top','100%');
+        });
+
+    })
+</script>
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+#vip{
+    /*height: 100px;*/
+    /*width: 100%;*/
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+
+#vip_img{
+    flex: 1;
+    background-image: url("../../img/03_menu/会员中心.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+#vip_text{
+    width: 82%;
+    font-size: 40px;
+    color: #0b0201;
+    line-height: 120px;
+}

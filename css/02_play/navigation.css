@@ -1,0 +1,41 @@
+#navigation{
+    height: 80px;
+    width: 100%;
+    background-color: #ff3419;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#recommend{
+    flex: 1;
+}
+#left{
+    color: white;
+    float: right;
+    margin-top: 28px;
+
+}
+
+#friends{
+    height: 80px;
+    width: 60%;
+
+}
+
+#center{
+    color: white;
+    text-align: center;
+    margin-top: 28px;
+
+}
+
+#radio{
+    flex: 1;
+    color: white;
+}
+#right{
+    color: white;
+    margin-top: 28px;
+
+}

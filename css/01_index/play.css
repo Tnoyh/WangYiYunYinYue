@@ -1,0 +1,99 @@
+#play{
+    height: 120px;
+    width: 100%;
+    /*flex: 1;*/
+
+    /*background-color: #3c4246;*/
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+/*#play:hover #player{*/
+    /*top: 0%;*/
+/*}*/
+
+#play_music{
+    height: 100px;
+    width: 75%;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+#play_music_img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    /*margin-left: 10px;*/
+    /*margin-top: 8px;*/
+    background-image: url("../../img/play/1d00a1a23a91a70a8c37d79d0656ffb.jpg");
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: 97%;
+    background-position: center;
+}
+#play_music_msg{
+    flex: 1;
+    /*height: 100px;*/
+    /*width: 75%;*/
+    margin-left: 10px;
+    font-size: 35px;
+    display: flex;
+    flex-flow: row;
+    /*justify-content: space-between;*/
+}
+
+
+#msg_play_music{
+
+
+}
+
+#music_name{
+    height: 40px;
+    font-size: 30px;
+    color: black;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#intro{
+    height: 40px;
+    color: #979188;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+
+
+
+
+#play_botton{
+    flex: 1;
+    height: 120px;
+    width: 120px;
+    /*margin-left: 10px;*/
+    /*margin-top: 8px;*/
+    background-image: url("../../img/play/播放.svg");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+
+}
+
+#play_list{
+    flex: 1;
+    height: 120px;
+    width: 120px;
+    /*margin-left: 10px;*/
+    /*margin-top: 8px;*/
+    background-image: url("../../img/play/列表.svg");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+
+}

@@ -1,0 +1,123 @@
+    #title{
+    height: 80px;
+    width: 100%;
+    /*flex: 1;*/
+    background: #ff3419;
+
+    /*position: fixed;*/
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#title_left{
+    height: 80px;
+    flex: 1;
+    /*position: relative;*/
+}
+
+#title_img{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/title/列表 (1).svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    /*position: absolute;*/
+                 position: relative;
+                 transition: all ease-in-out .5s ;
+
+}
+#title_img:hover{
+    background-image: url("../../img/title/列表_press.svg");
+}
+
+#title_center{
+    height: 80px;
+    width: 500px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#logo1{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/title/音乐.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+#logo1:hover{
+    background-image: url("../../img/title/音乐_press.svg");
+}
+
+#logo2{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/title/网易云音乐.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+#logo2:hover{
+    background-image: url("../../img/title/网易云音乐_press.svg");
+}
+
+#logo3{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url("../../img/title/视频.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+#logo3:hover{
+    background-image: url("../../img/title/视频_press.svg");
+}
+
+#title_right{
+    height: 80px;
+    flex: 1;
+}
+
+#search{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    float: right;
+    margin-top: 8px;
+    background-image: url("../../img/title/搜索.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+#search:hover{
+    background-image: url("../../img/title/搜索_press.svg");
+}
+
+    /******************菜单********************/
+/*#title_menu{*/
+    /*height: 100%;*/
+    /*width: 600px;*/
+    /*position: absolute;*/
+    /*background: #868682;*/
+
+/*}*/
+
+    /*.move {*/
+        /*transform: translate(200px);*/
+    /*}*/
+
+
